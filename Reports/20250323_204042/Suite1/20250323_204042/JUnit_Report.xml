@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite1" time="39.924" tests="1" failures="0" errors="0">
+   <testsuite name="Suite1" tests="1" failures="0" errors="0" time="39.924" skipped="0" timestamp="23-03-2025T20:40:46" hostname="desig - host.docker.internal" id="Test Suites/Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\desig\\Katalon Studio\\Test01\\Reports\\20250323_204042\\Suite1\\20250323_204042"/>
+         <property name="logFiles" value="C:\\Users\\desig\\Katalon Studio\\Test01\\Reports\\20250323_204042\\Suite1\\20250323_204042\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\desig\\Katalon Studio\\Test01\\Reports\\20250323_204042\\Suite1\\20250323_204042\\1742773282582.png, C:\\Users\\desig\\Katalon Studio\\Test01\\Reports\\20250323_204042\\Suite1\\20250323_204042\\1742773285559.png"/>
+         <property name="hostName" value="desig - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.118"/>
+         <property name="hostAddress" value="192.168.1.219"/>
+         <property name="sessionId" value="d55579f85114a92c6f13e6d381e9ad5b"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC01" time="39.739" classname="Test Cases/TC01" status="PASSED">
+         <system-out><![CDATA[23-03-2025T20:40:46 - [TEST_CASE][PASSED] - Test Cases/TC01: Test Cases/TC01
+
+23-03-2025T20:40:46 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+23-03-2025T20:40:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-03-2025T20:40:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-03-2025T20:40:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+23-03-2025T20:40:51 - [TEST_STEP][PASSED] - waitForElementNotClickable(findTestObject("Busca"), 0): Object 'Object Repository/Busca' is not clickable after 30 second(s)
+
+23-03-2025T20:40:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-03-2025T20:41:22 - [MESSAGE][WARNING] - Object 'Object Repository/Busca' is not clickable after 30 second(s)
+
+23-03-2025T20:41:22 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-03-2025T20:41:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-03-2025T20:41:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\desig\\Katalon Studio\\Test01\\Reports\\20250323_204042\\Suite1\\20250323_204042\\1742773282582.png]]
+
+23-03-2025T20:41:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Busca"), "Felipe Desiglo Ferrare"): Keys 'Felipe Desiglo Ferrare' sent to object: 'Object Repository/Busca'
+
+23-03-2025T20:41:23 - [MESSAGE][PASSED] - Keys 'Felipe Desiglo Ferrare' sent to object: 'Object Repository/Busca'
+
+23-03-2025T20:41:23 - [TEST_STEP][PASSED] - click(findTestObject("BntBuscar")): Object: 'Object Repository/BntBuscar' is clicked on
+
+23-03-2025T20:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/BntBuscar' is clicked on
+
+23-03-2025T20:41:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+23-03-2025T20:41:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-03-2025T20:41:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+23-03-2025T20:41:25 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-03-2025T20:41:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-03-2025T20:41:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\desig\\Katalon Studio\\Test01\\Reports\\20250323_204042\\Suite1\\20250323_204042\\1742773285559.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-03-2025T20:40:46 - [TEST_SUITE][PASSED] - Suite1: Test Cases/TC01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

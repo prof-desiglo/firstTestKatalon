@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite1,Chrome 134.0.6998.118,,,23-03-2025 20:42:10,23-03-2025 20:42:19,"9,222s",PASSED
+,,,,,,,
+Test Cases/TC01,Chrome 134.0.6998.118,,,23-03-2025 20:42:10,23-03-2025 20:42:19,"9,048s",PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 134.0.6998.118,,,23-03-2025 20:42:10,23-03-2025 20:42:15,"4,539s",PASSED
+"waitForElementClickable(findTestObject(""Busca""), 0)",Chrome 134.0.6998.118,,,23-03-2025 20:42:15,23-03-2025 20:42:15,"0,574s",PASSED
+takeFullPageScreenshot(),Chrome 134.0.6998.118,,,23-03-2025 20:42:15,23-03-2025 20:42:16,"0,518s",PASSED
+"sendKeys(findTestObject(""Busca""), ""Felipe Desiglo Ferrare"")",Chrome 134.0.6998.118,,,23-03-2025 20:42:16,23-03-2025 20:42:16,"0,451s",PASSED
+"click(findTestObject(""BntBuscar""))",Chrome 134.0.6998.118,,,23-03-2025 20:42:16,23-03-2025 20:42:17,"0,817s",PASSED
+waitForPageLoad(0),Chrome 134.0.6998.118,,,23-03-2025 20:42:17,23-03-2025 20:42:19,"1,484s",PASSED
+takeFullPageScreenshot(),Chrome 134.0.6998.118,,,23-03-2025 20:42:19,23-03-2025 20:42:19,"0,454s",PASSED
